@@ -1,86 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
-      rel="stylesheet"
-      />
-    <link
-    href="https://fonts.googleapis.com/css2?family=Bangers&family=Gloria+Hallelujah&family=Great+Vibes&display=swap"
-    rel="stylesheet">
-    </link>
-
+    
+    <title>Cv TOAD  Contrôle</title>
 
     <style>
-        * { margin:0; padding:0; box-sizing:border-box; background-color: bisque;}
+        *{ margin:0; padding:0; box-sizing:border-box;}
       .hero {
         text-align: center;
-        color:black;
-        height: 100vh;
-        padding: 0;
+        background-color: grey;
       }
       .name {
-        font-family:'Gloria Hallelujah', cursive;
-        font-size: 90px;
+
+        font-size: 80px;
       }
       .avatar {
-        vertical-align: middle;
-        height: 240px;
-        width: 240px;
+        margin-top: 5%;
+        text-align: left;
+        height: 300px;
+        width: 300px;
         border-radius: 50%;
-        border: black solid 3px;
+        border : black 5px;
+        
       }
       #hashtags {
-        padding-top: 25px;
+        padding-top: 30px;
       }
       .hashtag {
         display: inline-block;
-        font-family: "Bangers", cursive;
         font-size: 32px;
         color: black;
         padding: 10px;
-        border: black solid;
-        margin: 3px;
-      }.super-hashtag {
-        border: black solid 4px;
-        width: 575px;
-        text-align: center;
-        padding: 20px;
-        margin-left: 30%;
-        
+        border: red;
+        margin: 5px;
       }
-
+      .container{
+        box-sizing: border-box;
+        margin: auto;
+        text-align: center;
+        background-color: rgb(90, 90, 90);
+        height: 379px;
+        width: auto;
+        color: rgb(212, 212, 212);
+      }
+      .div1{
+        margin-left: auto;
+        vertical-align: center;
+        display: flex;
+        color:black;
+        font-size: 30px;
+      }
+      .div21{
+      margin: 3px;
+      height: 300px; 
+      width: 300px;
+      background-color: rgb(250, 161, 161);
+      flex-grow: 2;
+      }
+      .div22{
+        margin: 3px;
+        height: 300px; 
+      width: 300px;
+      background-color:rgb(171, 245, 175);
+      flex-grow: 2;
+      }
+      .div23{
+        margin: 3px;
+        height: 300px; 
+      width: 300px;
+      background-color:rgb(142, 219, 255);
+      flex-grow: 2;
+      }
+      img {
+	width: 240px;
+	height:200px;
+}
     </style>
   </head>
   <body>
     <div class="hero">
       <div id="name">
-        <p class="animate__animated animate__tada name">Nicolas Colomer</p>
+        <p class="name">Toad(Kinopio)</p>
       </div>
       <div id="image">
-        <img src="1.jpg" alt="Avatar" class="avatar" />
-      </div>
+        <img src="toadlebg.png" alt="Avatar" class="avatar" />
+      
       <div id="hashtags">
-        <p class="hashtag">#Web</p>
-        <p class="hashtag">#Communication</p>
-        <p class="hashtag">#Digital</p>
-        <p class="hashtag">Design</p>
-        <div class="super-hashtag">
-          <h2>WIS</h2>
-          <h3>Web international School</h3>
-
-
-        </div>
-
+        <p class="hashtag">#SuperMario</p>
+        <p class="hashtag">#SuperSmashBross</p>
+        <p class="hashtag">#CaptainToad</p>
+        <p class="hashtag">#PermisKart</p>
         </div>
       </div>
     </div>
+    <div class="container"><h1>Réalisation</h1><br><br>
+<div class="div1">
+  <div class="div21"> Sauveur de la princesse Peach<br><br><img src="peachettoad.png" alt="image"></div>
+  <div class="div22"> Champion de la Cup Mario Kart<br><br><img src="toadmariokart.png" alt="image"> </div>
+  <div class="div23"> Explorateur de Qualité<br><br><img src="toadexplor.png" alt="image"></div>
+</div>
+
+    </div>
   </body>
 </html>
+
